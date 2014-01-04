@@ -176,7 +176,7 @@ public class AddCaption extends Activity {
                 Bitmap mutableBitmap = workingBitmap.copy(Bitmap.Config.ARGB_8888, true);
                 Bitmap overlaid;
                 try {
-
+                    Log.d("AddCaption", "try ImageOverlay.overlay()");
                     //ALL ABOARD!
 
                     //use ImageOverlay class to write captions to image as bitmap
@@ -189,6 +189,7 @@ public class AddCaption extends Activity {
                     DateFormat sdf = new SimpleDateFormat("yyyyMMdd_HHmmss");
                     fileName = String.format("%s.jpg", sdf.format(now));
 
+                    Log.d("AddCaption", "storing " + fileName);
                     //save resized bitmap to external storage
                     boolean isImageSaved = ImageOverlay.saveToSD(overlaid, extStore.getPath()+"/DCIM/Camera", fileName);
 
@@ -197,11 +198,11 @@ public class AddCaption extends Activity {
                     ImageView img = (ImageView) findViewById(R.id.imageView);
                     img.setImageBitmap(Bitmap.createScaledBitmap(overlaid, 640, 470, true));
 
-
-
                 } catch (IOException e) {
+                    Log.e("AddCaption", e.getMessage());
                     e.printStackTrace();
                 } catch (InterruptedException e) {
+                    Log.e("AddCaption", e.getMessage());
                     e.printStackTrace();
                 }
             }

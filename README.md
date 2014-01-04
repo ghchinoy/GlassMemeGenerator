@@ -3,7 +3,7 @@
 ###What is this madness?
 What good is a new device that can't make memes? Worry not, glassholes. Your wish is my command. 
 
-Install this app and ask your glass to make a meme by saying - "OK Glass, make a meme" and let the magic happen.
+Install this app and ask your glass to make a meme by saying - "OK Glass, create a meme" and let the magic happen.
 
 ###Teach me how to debuggie
 Here's what happens:

@@ -6,9 +6,6 @@
         <option name="UPDATE_PROPERTY_FILES" value="true" />
       </configuration>
     </facet>
-    <facet type="android" name="Android2">
-      <configuration />
-    </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
@@ -18,26 +15,8 @@
     </content>
     <orderEntry type="jdk" jdkName="Android 4.0.3 Glass Development Kit Sneak Peek" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../Android/httpcomponents-client-4.3.1-bin/lib/httpmime-4.3.1.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../Android/httpcomponents-core-4.3-bin/lib/httpcore-4.3.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="library" name="httpmime-4.3.1" level="project" />
     <orderEntry type="library" name="httpcore-4.3" level="project" />
+    <orderEntry type="library" name="httpmime-4.3.1" level="project" />
   </component>
 </module>
 

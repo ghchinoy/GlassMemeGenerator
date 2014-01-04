@@ -12,7 +12,7 @@
     <string name="meme_path">meme_path</string>
     <string name="show_results">Results</string>
     <string name="delete_card">Delete</string>
-    <string name="intro_text">Nice picture! Go on. Add your captions..</string>
+    <string name="intro_text">Nice picture!<br />Tap to add your top and bottom captions...</string>
     <string name="memeBroadcast">meme_broadcast</string>
     <string name="live_card_message">Busy uploading meme to Imgur. This card will be updated with URL</string>
     <item name="top_caption_prompt" type="id">say top caption</item>

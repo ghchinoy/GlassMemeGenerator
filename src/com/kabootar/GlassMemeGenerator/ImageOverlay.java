@@ -218,6 +218,7 @@ public class ImageOverlay {
 
             @Override
             protected Void doInBackground(Void... arg0) {
+                Log.d("ImageOverlay", "saveToSD background asynctask");
 
                 File image = new File(sdPath, fileName);
 
@@ -280,6 +281,7 @@ public class ImageOverlay {
 
         @Override
         protected String doInBackground(Void... arg0) {
+            Log.d("ImageOverlay", "Uploader");
             final String url = "https://api.imgur.com/3/upload.json";
 
             HttpClient httpClient = new DefaultHttpClient();
@@ -308,6 +310,8 @@ public class ImageOverlay {
 
                 httpPost.setEntity(entity);
 
+                Log.d("ImageOverlay", "Here goes no posting!");
+                /*
                 HttpResponse response = httpClient.execute(httpPost, localContext);
                 String statusLine = response.getStatusLine().toString();
                 String responseBody = EntityUtils.toString(response.getEntity());
@@ -323,12 +327,12 @@ public class ImageOverlay {
                     Log.i("response", data.getString("link"));
                     return data.getString("link");
                 }
-
+                */
             } catch (IOException e) {
                 e.printStackTrace();
-            } catch (JSONException e) {
+            } /*catch (JSONException e) {
                 e.printStackTrace();
-            }
+            }*/
 
             return "";
 
