@@ -4,7 +4,8 @@
           android:versionCode="3"
           android:versionName="0.1.2">
     <uses-sdk android:minSdkVersion="15"/>
-    <application android:label="@string/app_name">
+    <application android:label="@string/app_name"
+        android:icon="@drawable/phteven_50">
         <activity android:name="MainPage"
                   android:label="@string/app_name">
         </activity>
@@ -14,6 +15,7 @@
         <service
                 android:name="com.kabootar.GlassMemeGenerator.MemeService"
                 android:label="@string/app_name"
+                android:icon="@drawable/phteven_50"
                 android:exported="true"
                 android:enabled="true" >
             <intent-filter>
