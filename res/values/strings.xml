@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">GlassMemeGenerator</string>
-    <string name="makememe_voice_trigger">can you make me a meme?</string>
+    <string name="makememe_voice_trigger">create a meme</string>
     <string name="add_top_caption">Add Top Caption</string>
     <string name="add_bottom_caption">Add Bottom Caption</string>
     <string name="add_caption">Add Caption</string>

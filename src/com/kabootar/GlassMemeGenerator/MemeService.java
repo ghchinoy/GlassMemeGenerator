@@ -1,6 +1,5 @@
 package com.kabootar.GlassMemeGenerator;
 
-import android.app.PendingIntent;
 import android.app.Service;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -8,11 +7,8 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.net.Uri;
 import android.os.IBinder;
-import android.view.SurfaceHolder;
-import android.widget.RemoteViews;
-import android.widget.TextView;
+
 import com.google.android.glass.app.Card;
-import com.google.android.glass.timeline.LiveCard;
 import com.google.android.glass.timeline.TimelineManager;
 
 import java.io.File;

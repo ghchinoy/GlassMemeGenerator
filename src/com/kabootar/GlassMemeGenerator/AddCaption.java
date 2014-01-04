@@ -2,15 +2,19 @@ package com.kabootar.GlassMemeGenerator;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.content.res.Resources;
-import android.graphics.*;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.FileObserver;
 import android.speech.RecognizerIntent;
 import android.util.Log;
-import android.view.*;
+import android.view.KeyEvent;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.widget.ImageView;
+
 import com.google.android.glass.app.Card;
 
 import java.io.File;
